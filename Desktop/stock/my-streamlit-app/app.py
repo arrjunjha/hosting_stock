@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from datetime import date
 
 # Load pre-trained model
-model = load_model('stock.keras')
+model = load_model('Desktop/stock/my-streamlit-app/stock.keras')
 
 # Streamlit interface
 st.header('Stock Predictor')
